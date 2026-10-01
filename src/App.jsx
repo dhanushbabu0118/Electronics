@@ -12,6 +12,7 @@ import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import PageTransition from "./components/PageTransition";
+import Cart from "./pages/Cart";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -91,7 +92,14 @@ function App() {
                 </PageTransition>
               }
             />
-
+            <Route
+              path="/cart"
+              element={
+                <PageTransition>
+                  <Cart />
+                </PageTransition>
+              }
+            />
           </Routes>
 
         </div>

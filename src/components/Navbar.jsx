@@ -60,9 +60,9 @@ function Navbar({ darkMode, setDarkMode }) {
                     Sign Up
                 </Link>
 
-                <span className="cart-link">
+                <Link to="/cart" className="cart-link">
                     🛒 Cart ({cart.length})
-                </span>
+                </Link>
 
                 <button
                     onClick={() => setDarkMode(!darkMode)}
