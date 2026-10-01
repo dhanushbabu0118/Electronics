@@ -1,16 +1,156 @@
-# React + Vite
+# 🎧 BOAT Electronics
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive **electronics e-commerce frontend** built using **React.js and Vite**.
 
-Currently, two official plugins are available:
+This project provides a user-friendly shopping experience for browsing electronics products, viewing product details, managing a wishlist, and adding products to a shopping cart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🏠 Home page with hero section
+* 📦 Products listing
+* 🔍 Product search
+* 🏷️ Category filtering
+* 📄 Product details page
+* ❤️ Wishlist functionality
+* 🛒 Shopping cart
+* ➕ Increase product quantity
+* ➖ Decrease product quantity
+* 🗑️ Remove products from cart
+* 💰 Automatic cart total calculation
+* 🔐 Login page
+* 📝 Signup page with validation
+* ℹ️ About page
+* 📞 Contact page
+* 🌙 Dark / Light mode
+* ✨ Page transition animations
+* 💀 Skeleton loading
+* 📱 Responsive design
+* 💻 Desktop, tablet and mobile support
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the Oxlint configuration
+* React.js
+* Vite
+* JavaScript
+* HTML5
+* CSS3
+* React Router
+* React Context API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📂 Project Structure
+
+```text
+Electronics/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Products.jsx
+│   │   ├── ProductDetails.jsx
+│   │   ├── Cart.jsx
+│   │   ├── Login.jsx
+│   │   ├── Signup.jsx
+│   │   ├── About.jsx
+│   │   └── Contact.jsx
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## ▶️ How to Run the Project
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/dhanushbabu0118/Electronics.git
+```
+
+### 2. Open the project
+
+```bash
+cd Electronics
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Open the application
+
+Open the local URL shown in the terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+## 🛒 Shopping Flow
+
+```text
+Home
+  ↓
+Products
+  ↓
+Product Details
+  ↓
+Add to Cart
+  ↓
+Cart
+  ↓
+Update Quantity
+  ↓
+View Total
+```
+
+## 📱 Responsive Design
+
+The application has been tested for:
+
+* 📱 Mobile
+* 📲 Tablet
+* 💻 Desktop
+
+## 🧪 Testing
+
+The following functionality has been tested:
+
+* Product browsing
+* Search
+* Category filtering
+* Product details
+* Wishlist
+* Login and Signup
+* Add to Cart
+* Remove from Cart
+* Quantity update
+* Cart total calculation
+* Navigation
+* Responsive layouts
+* Browser console
+
+## 👨‍💻 Developer
+
+**Dhanush Babu P**
+
+GitHub: [dhanushbabu0118](https://github.com/dhanushbabu0118)
+
+## 📌 Project Status
+
+**Completed ✅**
+
+This project was developed as a frontend e-commerce application using React and Vite.
